@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="https://cdn.dribbble.com/users/2264632/screenshots/6708631/final.gif">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Kinolar</title>
+</head>
+
+<body>
+
+    <!------------------------------ HEADER START ------------------------------>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <img class="header-logo" src="https://cdn.dribbble.com/users/2264632/screenshots/6708631/final.gif"
+                    alt="logo" width="80" height="80">
+                <input class="header-input" type="search" placeholder="Search">
+                <button class="header_btn">Submit</button>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------ HEADER END ------------------------------>
+
+    <!------------------------------ MAIN START ------------------------------>
+
+    <main class="main">
+        <div class="container">
+
+            <!------------------------------ LIST-MOVIE START ------------------------------>
+
+            <section class="list-movie">
+                <ul id="list"></ul>
+            </section>
+
+            <!------------------------------ LIST-MOVIE END ------------------------------>
+
+
+            <!------------------------------ REZULT START ------------------------------>
+
+            <section class="rezult">
+                <div>
+                    <img data-aos="fade-down" class="rezult_img" src="https://cdn.dribbble.com/users/2264632/screenshots/6708631/final.gif"
+                        alt="rezult-img" width="350" height="300">
+                    <p>Please leave!</p>
+                    <input class="rezult_input" type="range" value="0">
+                    <span class="rezult_secuond"></span>
+                </div>
+            </section>
+
+            <!------------------------------ REZULT END ------------------------------>
+        </div>
+
+    </main>
+
+    <!------------------------------ MAIN END ------------------------------>
+
+    <!------------------------------ FOOTER START ------------------------------>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_box">
+                <img class="footer-logo" src="https://cdn.dribbble.com/users/2264632/screenshots/6708631/final.gif"
+                    alt="footer-logo" width="80" height="80">
+                <ul class="footer_list">
+                    <li>
+                        <h3 class="footer_title">Qoshimcha saytlar:</h3>
+                        <a target="_blank" class="footer_link1"
+                            href="https://border-radius-generator-wvd6.vercel.app/">Border-radius-generator</a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="footer_link1"
+                            href="https://border-generator-mu.vercel.app/">Border-generator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!------------------------------ FOOTER END ------------------------------>
+
+    <script src="./src/js/secounds.js"></script>
+    <script src="./src/js/timeouts.js"></script>
+    <script src="./src/js/app.js"></script>
+    <script src="./src/js/rezult.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
